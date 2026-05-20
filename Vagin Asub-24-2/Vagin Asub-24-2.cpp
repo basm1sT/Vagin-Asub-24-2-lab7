@@ -167,7 +167,6 @@ int main()
 
     glm::mat4 projection = glm::perspective(glm::radians(45.0f), 1024.0f / 768.0f, 0.1f, 100.0f);
 
-    // Настройка освещения
     glm::vec3 lightPos = glm::vec3(1.0f, 2.0f, 3.0f);
     glm::vec3 lightAmbient = glm::vec3(0.2f, 0.2f, 0.2f);
     glm::vec3 lightDiffuse = glm::vec3(0.5f, 0.5f, 0.5f);
